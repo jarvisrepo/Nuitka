@@ -663,6 +663,6 @@ Undesirable import of '%s' (intending to avoid '%s') in \
             if module_name not in module_names:
                 self.info(
                     """\
-Not including '%s' automatically to avoid bloat, but this may cause: because of %s."""
+Not including '%s' automatically to avoid bloat, but this may cause: %s."""
                     % (module_name, description)
                 )
